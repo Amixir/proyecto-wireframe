@@ -1,6 +1,6 @@
 body{
 
-	background: #2c3e50;
+	background-image: url(https://acpe.edu.au/wp-content/uploads/2020/09/Gym-Blog-Header.png);
 }
 .title{
 	color: white;
@@ -27,7 +27,7 @@ body{
 .ingreso{
 	padding: 40px;
 	position: relative;
-	background: #F4D03F;
+	background-image: linear-gradient(to bottom right, #fffc00, #ffffff);
 }
 	
 .ingreso h2{
@@ -44,6 +44,7 @@ body{
 	border-right-style: none;
 	border-bottom: 1px solid #a8a8a8;
 	color: #333;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
 }
  .ingreso input:active,
  .ingreso input:focus{
@@ -56,12 +57,14 @@ body{
 	 color: white;
 	 font-size: 12px;
 	 cursor: pointer;
+	 border-radius: 10%;
+	 box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
  }
 	
 .registro{
 	padding: 40px;
 	position: relative;
-	background: #28B463;
+	background-image: linear-gradient(to bottom right, #ffffff, #45b649);
 
 }
 	
@@ -79,6 +82,7 @@ body{
 	border-right-style: none;
 	border-bottom: 1px solid #a8a8a8;
 	color: #333;
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
 }
  .registro input:active,
  .registro input:focus{
@@ -91,4 +95,5 @@ body{
 	 color: white;
 	 font-size: 12px;
 	 cursor: pointer;
+	 border-radius: 10%;
  }
