@@ -1,8 +1,10 @@
 body{
 
-	background: #f1f1f1;
+	background: #2c3e50;
 }
-
+.title{
+	color: white;
+}
 	
 	
 .container{
@@ -17,8 +19,76 @@ body{
 	display: flex;
 	width: 600px;
 	height: auto;
-	background: #bdc3c7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+	background: white;
 }
+.ingreso, .registro{
+	flex: 1;
+}
+.ingreso{
+	padding: 40px;
+	position: relative;
+	background: #F4D03F;
+}
+	
+.ingreso h2{
+	color: black;
+	margin-bottom: 30px;
+}
+.ingreso input{
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	margin-bottom: 25px;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom: 1px solid #a8a8a8;
+	color: #333;
+}
+ .ingreso input:active,
+ .ingreso input:focus{
+	 outline: none;
+ }
+ .ingreso .submit{
+	 width: auto;
+	 padding: 10px;
+	 background: red;
+	 color: white;
+	 font-size: 12px;
+	 cursor: pointer;
+ }
+	
+.registro{
+	padding: 40px;
+	position: relative;
+	background: #28B463;
+
+}
+	
+.registro h2{
+	color: black;
+	margin-bottom: 30px;
+}
+.registro input{
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	margin-bottom: 25px;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom: 1px solid #a8a8a8;
+	color: #333;
+}
+ .registro input:active,
+ .registro input:focus{
+	 outline: none;
+ }
+ .registro .submit{
+	 width: auto;
+	 padding: 10px;
+	 background: red;
+	 color: white;
+	 font-size: 12px;
+	 cursor: pointer;
+ }
